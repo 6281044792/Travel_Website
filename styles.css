@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: rgb(43, 49, 226);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-section {
+    padding: 2rem;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.destination {
+    background: #f9f9f9;
+    padding: 1rem;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonial {
+    background: #f0f0f0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #333;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-form label {
+    margin: 0.5rem 0 0.25rem 0;
+}
+
+#booking-form input, #booking-form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+#booking-form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}

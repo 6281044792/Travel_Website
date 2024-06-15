@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <img src="Travel_image.jpg" alt="Travel Image">
+                <div class="hero-text">
+                    <h1>Explore the World</h1>
+                    <p>Discover amazing destinations worldwide.</p>
+                    <a href="#destinations" class="btn">Start Your Journey</a>
+                </div>
+            </div>
+        </section>
+        <section id="destinations" class="content-section">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination">
+                    <img src="Destination_img.jpg" alt="Destination">
+                    <h3>Destination Name</h3>
+                    <p>Description of the destination.</p>
+                </div>
+                <!-- Add more destinations here -->
+            </div>
+        </section>
+        <section id="experiences" class="content-section">
+            <h2>Traveler Experiences</h2>
+            <div class="testimonial">
+                <p>"This was the best trip of my life!"</p>
+                <h4>- Traveler's Name</h4>
+            </div>
+            <!-- Add more testimonials here -->
+        </section>
+        <section id="booking" class="content-section">
+            <h2>Book Your Trip</h2>
+            <form id="booking-form">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <p>Follow us on social media or send us an email.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
